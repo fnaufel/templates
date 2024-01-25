@@ -1,6 +1,7 @@
 
-:::{.hidden}
+::: {.content-hidden}
 
-\providecommand{\vet}[1]{\overrightarrow{#1}}
+\providecommand{\reais}{\ensuremath{\mathbb{R}}}           % reais
+\providecommand{\vet}[1]{\ensuremath{\mathbf{#1}}}         % vetor
 
 :::

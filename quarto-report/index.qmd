@@ -14,8 +14,8 @@ lang: pt
 # English:
 # csl: |
 #   `r if(knitr::is_html_output())
-#    'html_files/chicago-fullnote-bibliography.csl' else
-#    'pdf_files/chicago-author-date.csl'`
+#    'chicago-fullnote-bibliography.csl' else
+#    'chicago-author-date.csl'`
 
 format:
   html:
@@ -37,9 +37,7 @@ format:
 
 {{< include _math.qmd >}}
 
-# Setup
-
-```{r setup}
+```{r setup, echo=FALSE, include=FALSE}
 source('_setup.R')
 ```
 

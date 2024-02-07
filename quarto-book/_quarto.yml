@@ -36,6 +36,13 @@ book:
 comments:
   hypothesis: true
 
+execute: 
+  echo: true
+  eval: true
+  warning: true
+  error: true
+  include: true
+
 format:
   html:
     toc-depth: 3

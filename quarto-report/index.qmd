@@ -5,6 +5,12 @@ author: "Fernando Náufel"
 date: now
 date-format: "DD/MM/YYYY HH:mm"
 lang: pt
+execute: 
+  echo: false
+  eval: true
+  warning: true
+  error: true
+  include: true
 
 # bibliography: bibliography.bib
 
@@ -37,7 +43,7 @@ format:
 
 {{< include _math.qmd >}}
 
-```{r setup, echo=FALSE, include=FALSE}
+```{r setup, include=FALSE}
 source('_setup.R')
 ```
 

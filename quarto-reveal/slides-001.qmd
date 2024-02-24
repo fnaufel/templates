@@ -55,8 +55,6 @@ format:
     link-external-icon: true
     link-external-newwindow: true
     link-external-filter: ^(?:http:|https:)\/\/fnaufel\.github\.io
-    execute: 
-      echo: false
     # Se ativar embed-resources, desativar chalkboard:  
     # embed-resources: true
     chalkboard: 

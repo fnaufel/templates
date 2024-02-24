@@ -10,6 +10,13 @@ date-format: DD/MM/YYYY
 filters:
   - code-fullscreen
 
+execute: 
+  echo: true
+  eval: true
+  warning: true
+  error: true
+  include: true
+
 format:
   revealjs: 
     theme: 

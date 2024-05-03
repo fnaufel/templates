@@ -1,5 +1,5 @@
 
-::: {.hidden}
+::: {.content-hidden}
 
 \providecommand{\naturais}{\mathbb{N}}        % naturais
 \providecommand{\reais}{\mathbb{R}}           % reais
